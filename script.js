@@ -32,7 +32,7 @@ const infoArray = [
         text: 'IT. Mer och mer IT.<br><br>Jag startade upp ett konto på www.codecademy.com och håller just nu på att läsa deras "full stack"-paket som går igenom HTML, CSS, JavaScript, nodeJS, mocha, SQL och mycket, mycket mer.'
     },{
         head: 'Trafikverket',
-        text: 'En chans som inte visar sig allt för ofta.<br><br>Mitt uppe i mina fritidsstudier så fick jag ett tips om att detta låg ute och möjlighet fanns till att komma snabbare fram till mitt nuvarande delmål. En chans att komma i kontakt med ett företag som är väletablerat sedan länge. Det stämmer även bra överrens med tidigare bana från min Stockholmsturné där kollektivtrafik var något jag levde och andades.<br><br>Att få komma till Borlänge och vidareutvecklas som Systemtekniker låter nästan för bra för att vara sant. <br><br><b>Jag vill dock skriva en brasklapp om att jag är villig att se till andra inriktningar om ni ser att det passar mig bättre</b>.'
+        text: 'En chans som inte visar sig allt för ofta.<br><br>Mitt uppe i mina fritidsstudier så fick jag ett tips om att detta låg ute och möjlighet fanns till att komma snabbare fram till mitt nuvarande delmål. En chans att komma i kontakt med ett företag som är väletablerat sedan länge. Det stämmer även bra överrens med tidigare bana från min Stockholmsturné där kollektivtrafik var något jag levde och andades.<br><br>Att få komma till <b>Borlänge</b> och vidareutvecklas som Systemtekniker låter nästan för bra för att vara sant. <br><br><b>Jag vill dock skriva en brasklapp om att jag är villig att se till andra inriktningar om ni ser att det passar mig bättre</b>.'
     }
 
 ]
