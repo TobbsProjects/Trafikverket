@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tobias Östh - Hello World!</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <nav>
-        <section>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </section>
-    </nav>
     <main>
-
+        <h1>Tobias Östh</h1>
+        <!--Right navigation button-->
+        <div id="right" class="outerButton right">
+            <div class="innerButton rightButton"></div>
+        </div>
+        <!--Left navigation button-->
+        <div id="left" class="outerButton left">
+            <div class="innerButton leftButton"></div>
+        </div>
+        <div id="mainDiv">
+            <div id="helloWorld">
+                <h2>Hello World!</h2>
+            </div>
+            <div>
+                <h2 id="informationHead"></h2>
+                <p id="informationText"></p>
+            </div>
+        </div>
     </main>
 </body>
 </html>
