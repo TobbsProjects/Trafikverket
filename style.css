@@ -67,19 +67,14 @@ h1{
     display: flex;
     grid-row: 2/3;
     grid-column: 2/3;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 #helloWorld{
-    display: flex;
-    justify-self: center;
-    align-self: center;
-}
-
-#helloWorld h2{
     font-family: 'Press Start 2P', cursive;
-    justify-self: center;
-    align-self: center;
-    font-size: 7rem;
+    font-size: 5rem;
 }
 
 #information{

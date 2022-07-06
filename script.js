@@ -3,7 +3,7 @@ const informationText = document.getElementById("informationText");
 const left = document.getElementById("left");
 const right = document.getElementById("right");
 const helloWorld = document.getElementById('helloWorld');
-
+let i = 0;
 
 const infoArray = [
     {
@@ -34,11 +34,31 @@ const infoArray = [
 ]
 
 
-function changeInfo(direction) {
-    i = 0;
-    helloWorld.style.display.display = 'none';
-    console.log(`You pushed ${direction}`);
+function changeRight() {
+    helloWorld.style.display = 'none';
+    informationHeader.innerHTML = '';
+    informationText.innerHTML = '';
+    
+    informationHeader.innerHTML = infoArray[i].head;
+    informationText.innerHTML = infoArray[i].text;
+    i++;
+    if(i === 8){
+        i = 0;
+    }
 }
 
-right.addEventListener('click', changeInfo('right'));
-left.addEventListener('click', changeInfo('left'));
+function changeLeft() {
+    helloWorld.style.display = 'none';
+    informationHeader.innerHTML = '';
+    informationText.innerHTML = '';
+    
+    informationHeader.innerHTML = infoArray[i].head;
+    informationText.innerHTML = infoArray[i].text;
+    i--;
+    if(i < 0){
+        i = 7;
+    }
+}
+
+right.addEventListener('click', changeRight);
+left.addEventListener('click', changeLeft);
